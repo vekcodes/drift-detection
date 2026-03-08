@@ -1,9 +1,7 @@
 {
   "version": 2,
   "functions": {
-    "api/scrape.py": {
-      "runtime": "python3.12"
-    }
+    "api/scrape.py": {}
   },
   "rewrites": [
     { "source": "/api/info", "destination": "/api/scrape" },
