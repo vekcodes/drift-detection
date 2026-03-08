@@ -1,8 +1,5 @@
 {
   "version": 2,
-  "functions": {
-    "api/scrape.py": {}
-  },
   "rewrites": [
     { "source": "/api/info", "destination": "/api/scrape" },
     { "source": "/", "destination": "/api/scrape" }
